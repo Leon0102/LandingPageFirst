@@ -207,13 +207,14 @@ Tức từ thằng Home ==> More mà thôi */
   font-size: 20px;
   line-height: 50px;
 }
-.slider-content{
-    position: relative;
-    margin-top: 50px;
+.slider-content {
+  position: relative;
+  margin-top: 50px;
 }
 .mySlides {
   width: 100%;
-  height: 700px;
+  height: 680px;
+  object-fit: cover;
 }
 .slider .text-content {
   color: rgb(250, 189, 189);
