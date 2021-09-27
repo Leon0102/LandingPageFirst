@@ -212,9 +212,19 @@ Tức từ thằng Home ==> More mà thôi */
   margin-top: 50px;
 }
 .mySlides {
+  position:relative;
   width: 100%;
   height: 680px;
   object-fit: cover;
+  animation: alternate linear 2s;
+}
+@keyframes example {
+  from {
+    opacity: 0.8;
+  }
+  to {
+    opacity: 1;
+  }
 }
 .slider .text-content {
   color: rgb(250, 189, 189);
