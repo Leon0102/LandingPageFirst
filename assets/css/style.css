@@ -383,6 +383,7 @@ Tức từ thằng Home ==> More mà thôi */
   right: 0;
   left: 0;
   bottom: 0;
+  z-index:1;
   background: rgba(0, 0, 0, 0.4);
   display: flex;
   align-items: center;
